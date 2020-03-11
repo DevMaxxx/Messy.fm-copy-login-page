@@ -32,9 +32,6 @@ body {
   color: white;
   font-size: 1rem;
   border-radius: 25px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   text-decoration: none;
   cursor: pointer;
 }
@@ -272,6 +269,11 @@ footer .footer__content .footer__grid {
 
 footer .footer__content .footer__grid .footer__subscrible p {
   margin-bottom: 30px;
+}
+
+footer .footer__content .footer__grid .footer__subscrible .button-subscribe {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 footer .footer__content .footer__grid .footer__links {
